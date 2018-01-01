@@ -1,0 +1,161 @@
+@charset "utf-8";
+body
+{
+	background-image:url(../Imagenes/Fondo2.jpg);
+        background-color:white;
+	background-repeat:repeat;
+	}
+
+#principal {
+	width: 960px;
+	height: auto;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+#Banner
+{
+	width:960px;
+	height:150px;
+	margin-bottom:10px;
+	margin-top:opx;
+	background-color:#CCC;
+	background-image:url(../Imagenes/banner-02.png);
+	
+	}
+
+ul
+{
+	display:table-cell;
+	list-style:none;
+	}
+
+#Menu 
+{
+	padding:0px;
+	margin:0px;
+	height:60px;
+	}	
+
+#Menu li a {
+		background-color:#6a87ef;
+		color:#fff;
+		text-decoration:none;
+		position:relative;
+		width:150px;
+		padding:15px;
+		display: block;
+			}
+			
+#Menu li {
+	text-align:center;
+	float: left;		
+			}
+			
+#Menu li a:hover {
+		background-color:#4545e5;
+			}
+			
+#Menu li ul {
+	display:none;
+	position:absolute;
+}
+#Cuerpo
+{
+	height:auto;
+	padding:40px;
+	margin-bottom:10px;
+	background-color:#E0E3DA;
+	//background-image:url(../Imagenes/Formulario.jpg);
+	background-repeat:repeat;
+	
+	}
+	
+#Pie
+{
+	color:#FFF;
+	margin-top:10px;
+	text-align:center;
+	height:60px;
+	padding:20px;
+	padding-top:60px;
+	background-color:#6a87ef;
+	
+	}
+.textbox
+{
+	padding:10px;
+	border-radius:5px;}
+	
+.boton
+{
+	background-color:#6a87ef;
+	width:100px;
+	height:30px;
+	border:none;
+	border-radius:3px;
+	color:#FFF;
+	}
+.boton:hover
+{
+	background-color:#4545e5;
+	transition:.5s;
+	}
+  /*      
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}    
+
+th, td {
+    padding: 15px;
+} */
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 18px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#rounded-corner thead th.rounded-company
+{
+	background: #519D9E url('table-images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #519D9E url('table-images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 20px;
+	color: #fff;
+	background: #519D9E;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #FBFFB9;
+	border-top: 1px solid #fff;
+	color: #566270;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #FFFFF3 url('table-images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #FFFFF3 url('table-images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #519D9E;
+        color: #fff;
+}
